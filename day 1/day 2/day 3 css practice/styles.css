@@ -22,6 +22,10 @@ Challenge 4:
 Center the logo and the search field.
 
 */
+/*
+    Challenge 5: 
+    Design the search field according to the spec
+    */
 
 .main{
         margin-top: 100px;
@@ -32,6 +36,13 @@ Center the logo and the search field.
    margin-right: auto;
     width: 400px;
     display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    line-height: 24px;
+    border:1px solid #dfe1e5;
+    border-radius: 24px;
 }
  
  .image{
