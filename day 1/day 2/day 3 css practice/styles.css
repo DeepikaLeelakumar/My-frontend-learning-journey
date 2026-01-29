@@ -29,6 +29,9 @@ Center the logo and the search field.
 
 .main{
         margin-top: 100px;
+        text-align: center;
+        
+        
 }
 
 .text-field {
@@ -54,3 +57,15 @@ Center the logo and the search field.
  }
 
  
+.btn{
+   
+    margin-top: 30px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #dfe1e5;
+    font-size: medium;
+    border: 1px solid;
+    border-radius: 15px;
+}
