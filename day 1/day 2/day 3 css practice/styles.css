@@ -25,18 +25,30 @@ Center the logo and the search field.
 /*
     Challenge 5: 
     Design the search field according to the spec
+
+    /*
+Challenge 6:
+Wrap the buttons in a flexbox div and center them.
+Give the div a "btn-wrapper" class.
+*/
     */
 
 .main{
         margin-top: 100px;
-        text-align: center;
+       
+       
         
         
 }
+.button{
+    display: flex;
+    justify-content: center;
+}
 
 .text-field {
-   margin-left: auto;
-   margin-right: auto;
+
+    margin-left: auto;
+    margin-right: auto;
     width: 400px;
     display: block;
     padding-top: 10px;
