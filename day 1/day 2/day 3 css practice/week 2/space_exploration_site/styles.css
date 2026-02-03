@@ -1,0 +1,22 @@
+body{
+    color: white;
+    background-image: url("./images/guillermo-ferla-Oze6U2m1oYU-unsplash.jpg");
+    background-size: cover;
+    font-family: "Orbitron", sans-serif;
+}
+.space{
+    text-align: center;
+}
+
+.btn{
+    text-align: center;
+    background-color: aliceblue;
+    color: black;
+    font-size: medium;
+    padding: 10px;
+    font-family: "Orbitron", sans-serif;
+}
+.ex{
+   
+    border-bottom: 4px solid white;
+}
