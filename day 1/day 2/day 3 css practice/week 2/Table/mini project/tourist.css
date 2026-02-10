@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+  
+}
+
+.img{
+   height: 450px;
+   background-image: url("./images/istockphoto-1211952929-2048x2048.jpg");
+   background-size: cover;
+   background-position: center 30%;
+   background-repeat: no-repeat
+}
+
+h2{
+    padding-top: 150px;
+    padding-bottom:30px ;
+    text-shadow: 0px 0px 5px black;
+    color: whitesmoke;
+    font-weight: bolder;
+}
+
+p{ 
+    font-style: italic;
+    color: black;
+    font-weight: 800;
+   
+}
+
+img{
+    width: 150px;
+    height: 150px;
+    border-radius: 80px;
+    
+}
+
+.marina{
+   
+    padding-left: 25px;
+    padding-bottom: 15px;
+}
+
+.bo{
+    margin-top: 19px;
+    margin-bottom: 15px;
+    display: flex;
+   
+    justify-content: space-between;
+}
+
+.tourist{
+    margin-top: 15px;
+    
+}
+
+.top{
+    background-color: rgb(186, 233, 233);
+}
