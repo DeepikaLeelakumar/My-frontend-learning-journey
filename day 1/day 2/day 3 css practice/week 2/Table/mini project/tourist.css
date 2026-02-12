@@ -56,5 +56,18 @@ img{
 }
 
 .top{
-    background-color: rgb(186, 233, 233);
+    
+    background-color: rgb(220, 238, 246);
+}
+
+.tou{
+    display: flex;
+    justify-content: center;
+   flex-direction: column;
+   align-items: center;
+}
+
+.tour{
+    display: flex;
+    
 }
