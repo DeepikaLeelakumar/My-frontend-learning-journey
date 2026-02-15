@@ -1,0 +1,44 @@
+{
+  "name": "frontend-dev-learning-journey",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "detect-libc": "^2.1.2",
+    "enhanced-resolve": "^5.19.0",
+    "esbuild": "^0.27.3",
+    "fdir": "^6.5.0",
+    "graceful-fs": "^4.2.11",
+    "jiti": "^2.6.1",
+    "lightningcss": "^1.30.2",
+    "lightningcss-win32-x64-msvc": "^1.30.2",
+    "magic-string": "^0.30.21",
+    "nanoid": "^3.3.11",
+    "picocolors": "^1.1.1",
+    "picomatch": "^4.0.3",
+    "rollup": "^4.57.1",
+    "source-map-js": "^1.2.1",
+    "tapable": "^2.3.0",
+    "tinyglobby": "^0.2.15",
+    "vite": "^7.3.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.24",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^3.4.19"
+  },
+  "scripts": {
+    "build": "npx tailwindcss -i ./src/input.css -o ./public/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DeepikaLeelakumar/My-frontend-learning-journey.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DeepikaLeelakumar/My-frontend-learning-journey/issues"
+  },
+  "homepage": "https://github.com/DeepikaLeelakumar/My-frontend-learning-journey#readme",
+  "description": ""
+}

@@ -3,15 +3,18 @@
   padding: 0;
   box-sizing: border-box;
   text-align: center;
+ 
+ 
   
 }
 
-.img{
+.header{
    height: 450px;
    background-image: url("./images/istockphoto-1211952929-2048x2048.jpg");
    background-size: cover;
    background-position: center 30%;
    background-repeat: no-repeat
+
 }
 
 h2{
@@ -55,19 +58,23 @@ img{
     
 }
 
+.card{
+    width: 400px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    margin:  0 auto;
+    text-align: center;
+    color: #2b2839;
+    background-color: #5bc3ea;
+    border-bottom: 6px solid #d8cefe;
+   
+}
+
 .top{
-    
-    background-color: rgb(220, 238, 246);
+    background-color: rgb(207, 239, 252);
 }
 
-.tou{
-    display: flex;
-    justify-content: center;
-   flex-direction: column;
-   align-items: center;
-}
-
-.tour{
-    display: flex;
-    
+.guide{
+    background-color: rgb(252, 220, 232);
 }
