@@ -42,3 +42,7 @@ p{
     position: absolute;
     left: 200px;
 }
+
+#onnu{
+    position: fixed;
+}
