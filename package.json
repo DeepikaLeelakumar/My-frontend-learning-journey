@@ -21,13 +21,8 @@
     "tinyglobby": "^0.2.15",
     "vite": "^7.3.1"
   },
-  "devDependencies": {
-    "autoprefixer": "^10.4.24",
-    "postcss": "^8.5.6",
-    "tailwindcss": "^3.4.19"
-  },
   "scripts": {
-    "build": "npx tailwindcss -i ./src/input.css -o ./public/style.css"
+    "build": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
   },
   "repository": {
     "type": "git",
@@ -40,5 +35,9 @@
     "url": "https://github.com/DeepikaLeelakumar/My-frontend-learning-journey/issues"
   },
   "homepage": "https://github.com/DeepikaLeelakumar/My-frontend-learning-journey#readme",
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.2.0",
+    "tailwindcss": "^4.2.1"
+  }
 }
