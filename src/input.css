@@ -1,5 +1,6 @@
 @import "tailwindcss";
 
-@theme{
+@theme {
     --font-display:"Bebas Neue", sans-serif;
+    --text-10xl: 6.75rem;
 }

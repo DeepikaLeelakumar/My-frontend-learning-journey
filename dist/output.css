@@ -9,6 +9,15 @@
     --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
       "Courier New", monospace;
     --color-red-500: oklch(63.7% 0.237 25.331);
+    --color-green-100: oklch(96.2% 0.044 156.743);
+    --color-green-200: oklch(92.5% 0.084 155.995);
+    --color-green-300: oklch(87.1% 0.15 154.449);
+    --color-green-400: oklch(79.2% 0.209 151.711);
+    --color-green-500: oklch(72.3% 0.219 149.579);
+    --color-green-600: oklch(62.7% 0.194 149.214);
+    --color-green-700: oklch(52.7% 0.154 150.069);
+    --color-green-800: oklch(44.8% 0.119 151.328);
+    --color-blue-700: oklch(48.8% 0.243 264.376);
     --color-white: #fff;
     --spacing: 0.25rem;
     --text-xs: 0.75rem;
@@ -26,6 +35,7 @@
     --default-font-family: var(--font-sans);
     --default-mono-font-family: var(--font-mono);
     --font-display: "Bebas Neue", sans-serif;
+    --text-10xl: 6.75rem;
   }
 }
 @layer base {
@@ -198,6 +208,12 @@
   .table {
     display: table;
   }
+  .h-8 {
+    height: calc(var(--spacing) * 8);
+  }
+  .h-16 {
+    height: calc(var(--spacing) * 16);
+  }
   .border-collapse {
     border-collapse: collapse;
   }
@@ -208,11 +224,29 @@
     border-style: var(--tw-border-style);
     border-width: 1px;
   }
-  .bg-red-500 {
-    background-color: var(--color-red-500);
+  .bg-green-100 {
+    background-color: var(--color-green-100);
   }
-  .p-5 {
-    padding: calc(var(--spacing) * 5);
+  .bg-green-200 {
+    background-color: var(--color-green-200);
+  }
+  .bg-green-300 {
+    background-color: var(--color-green-300);
+  }
+  .bg-green-400 {
+    background-color: var(--color-green-400);
+  }
+  .bg-green-500 {
+    background-color: var(--color-green-500);
+  }
+  .bg-green-600 {
+    background-color: var(--color-green-600);
+  }
+  .bg-green-700 {
+    background-color: var(--color-green-700);
+  }
+  .bg-green-800 {
+    background-color: var(--color-green-800);
   }
   .font-display {
     font-family: var(--font-display);
@@ -246,8 +280,11 @@
     font-size: var(--text-xs);
     line-height: var(--tw-leading, var(--text-xs--line-height));
   }
-  .text-white {
-    color: var(--color-white);
+  .text-10xl {
+    font-size: var(--text-10xl);
+  }
+  .text-blue-700 {
+    color: var(--color-blue-700);
   }
   .underline {
     text-decoration-line: underline;
